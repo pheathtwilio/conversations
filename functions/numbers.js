@@ -18,3 +18,7 @@ getNumber.then((result) => {
 }).catch((e) => {
     console.log(e)
 })
+
+module.exports = {
+    getNumber: getNumber
+}
